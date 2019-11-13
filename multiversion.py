@@ -20,7 +20,7 @@ import imp
 import binascii
 import weakref
 from types import ModuleType
-import __builtin__
+import builtins as __builtin__
 
 
 actual_import = __builtin__.__import__
